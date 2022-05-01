@@ -13,7 +13,20 @@ const commands = [
 	.addStringOption(option => option
 		.setName('ticket')
 		.setDescription('Your question / suggestion')
-		.setRequired(true))
+		.setRequired(true)),
+	new SlashCommandBuilder().setName('admin')
+	.setDescription('Administrative tasks for mod team. Requires mod team role')
+	.addSubcommand(subcommand => subcommand
+		.setName('giverole')
+		.setDescription('Gives specified user a role. Will return an error if role is above. (NORMALLY CANT HAPPEN)')
+		.addUserOption(user => user
+			.setName('user')
+			.setDescription('User to give role to')
+			.setRequired(true))
+		.addRoleOption(role => role
+			.setName('role')
+			.setDescription('Role to assign user to')
+			.setRequired(true)))
 ]
 	.map(command => command.toJSON());
 
