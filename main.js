@@ -1,16 +1,19 @@
-//ec: intents, 
+//possible unknown error causes: intents, 
 
 import { Client, Intents, Interaction } from 'discord.js';
 import { token } from './token.js';
 
 const client = new Client({ intents: [Intents.FLAGS.GUILDS] });
-const blacklistedUsers = []
+const blacklistedUsers = [] //add users here that do not follow rules of /createticket
 
 client.once('ready', () => {
 	console.log('Ready!');
 	client.user.setPresence({ activities: [{ name: 'mod applications' }], status: 'online' });
+	// oddly static
 });
 
+// TODO: add an admin command with sub-commands to cleanly do moderation tasks without
+// editing.
 client.once('interactionCreate', interaction => {
 	if (!interaction.isCommand()) return;
 
