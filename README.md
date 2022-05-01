@@ -14,19 +14,24 @@ public discord bot in https://discord.gg/RrksG7GpJD
 # how to host:
 
 ## step 1:
-- download the bot
-- make discord bot
-- log in
+- download the required files
+- make discord bot (https://discord.com/developers/applications)
 - write down (token, client id)
-- go to your server and copy the id of it ( enable developer mode first)
+- go to your server and copy the id of the guild ( enable developer mode first)
 
 ## step 2:
 - install node.js
 - install all required libraries (look at import statements)
+- (this may not be required, if there are no errors if you run slash.js, youre good)
+- if there are import errors just do **npm i [library]** to install it
+
+![image](https://user-images.githubusercontent.com/79268434/166147834-0464e196-bb87-4dca-b1ef-df0c01335d31.png)
+
+(npm i discord.js)
 
 ## step 3:
 
-- replace these 2 placeholders with their respective values.
+- replace these 2 placeholders with their respective values. (guild id is server id)
 
 ![image](https://user-images.githubusercontent.com/79268434/166147409-a50e1d2e-a8cd-41c2-ae65-4184413ec443.png)
 
