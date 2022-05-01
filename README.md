@@ -10,3 +10,9 @@ public discord bot in https://discord.gg/RrksG7GpJD
 - idk bored
 - USEFUL
 - kypper
+
+# how to host:
+- open *token.js*
+- edit your bot token
+- run ./slash.js
+- and host with ./main.js
