@@ -13,6 +13,10 @@ public discord bot in https://discord.gg/RrksG7GpJD
 
 # how to host:
 
+## server setup:
+- make channel named *tickets*.
+- mod / admin role must have MANAGE_MESSAGES permission in order to do /admin [sub]
+
 ## step 1:
 - download the required files
 - make discord bot (https://discord.com/developers/applications)
