@@ -26,7 +26,9 @@ const commands = [
 		.addRoleOption(role => role
 			.setName('role')
 			.setDescription('Role to assign user to')
-			.setRequired(true)))
+			.setRequired(true))),
+	new SlashCommandBuilder().setName('help')
+			.setDescription('DM\'s you the help page.')
 ]
 	.map(command => command.toJSON());
 
