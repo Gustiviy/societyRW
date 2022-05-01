@@ -25,10 +25,13 @@ public discord bot in https://discord.gg/RrksG7GpJD
 - install all required libraries (look at import statements)
 
 ## step 3:
-![image](https://user-images.githubusercontent.com/79268434/166147409-a50e1d2e-a8cd-41c2-ae65-4184413ec443.png)
+
 - replace these 2 placeholders with their respective values.
-![image](https://user-images.githubusercontent.com/79268434/166147480-10549e5e-bab9-4457-bc32-a5c2232c4efa.png)
+![image](https://user-images.githubusercontent.com/79268434/166147409-a50e1d2e-a8cd-41c2-ae65-4184413ec443.png)
+
+
 - important: place your token here in token.js (anyone can login to your bot with this string, be careful!)
+![image](https://user-images.githubusercontent.com/79268434/166147480-10549e5e-bab9-4457-bc32-a5c2232c4efa.png)
 
 ## step 4:
 - open your command line in the folder
